@@ -1,9 +1,7 @@
-open System
-open System.IO
 open FSharpTestground
 
 [<EntryPoint>]
-let main argv =
+let main _ =
     DataApp.execute
     PointApp.execute
     0
